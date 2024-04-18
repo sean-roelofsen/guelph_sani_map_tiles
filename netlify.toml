@@ -1,5 +1,7 @@
+
 [[headers]]
-for = "/tiles/**/*.pbf"
-[headers.values]
-Content-Type = "application/vnd.mapbox-vector-tile"
-Access-Control-Allow-Origin = "*"
+  for = "/*.pbf"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/vnd.mapbox-vector-tile"
+
