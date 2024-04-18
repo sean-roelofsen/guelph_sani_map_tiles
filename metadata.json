@@ -1,0 +1,14 @@
+{
+  "name": "maptiler",
+  "version": "1.1.0",
+  "description": "",
+  "attribution": "<a href=\"https://www.maptiler.com/engine/\">Rendered with MapTiler Engine</a>",
+  "type": "baselayer",
+  "format": "pbf",
+  "minzoom": "7",
+  "maxzoom": "19",
+  "scale": "1.000000",
+  "bounds": [-80.32505389, 43.48370103, -80.17269682, 43.58418235],
+  "profile": "mercator",
+  "vector_layers": [{"id":"guelph_lateral","description":"guelph lateral sewers","minzoom":7, "maxzoom":19,"fields":{"objectid":"Number","geometry_wkt":"String","material":"String","diameter":"Number","ownedby":"String"}}]
+}
